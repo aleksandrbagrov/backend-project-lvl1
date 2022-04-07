@@ -14,3 +14,7 @@ brain-games: # start program Brain Games
 
 	node bin/brain-games.js
 
+lint: # launch eslint
+
+	npx eslint .
+
