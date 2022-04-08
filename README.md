@@ -1,4 +1,4 @@
-### ***My first educational project on Hexlet "Brain Games"***
+### ***"Brain Games" - My first educational project on Hexlet***
 
 
 ### Hexlet tests and linter status:
