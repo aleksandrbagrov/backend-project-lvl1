@@ -1,9 +1,9 @@
 // 'readline-sync' tries to let your script have a conversation with the user via a console
 import readlineSync from 'readline-sync';
 
-const welcomeUser = () => {
-  const name = readlineSync.question('May I have your name? ');
-  return name;
+const answer = () => {
+  const answerYesNo = readlineSync.question('Your answer: ');
+  return answerYesNo;
 };
 
-export default welcomeUser;
+export default answer;
