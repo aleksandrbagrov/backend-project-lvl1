@@ -2,7 +2,7 @@
 import readlineSync from 'readline-sync';
 
 const answer = (question) => {
-  const answerYesNo = readlineSync.question(`${question}: `);
+  const answerYesNo = readlineSync.question(`${question} `);
   return answerYesNo;
 };
 
