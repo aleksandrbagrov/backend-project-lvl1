@@ -27,4 +27,9 @@ brain-even: # start game Brain Even
 brain-calc: # start game Brain Calc
 
 	node bin/brain-calc.js
+
+
+brain-gcd: # start games Brain GCD (Greatest Common Divisor)
+
+	node bin/brain-gcd.js
 	
