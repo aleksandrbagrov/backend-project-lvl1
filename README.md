@@ -21,3 +21,8 @@
 ### Example of starting of Brain Calc game, winning and losing a player:   https://asciinema.org/a/LiJcJHbljSMK0vFyyHIMV3P86
 
 ![Asciinema - examples of Brain Calc game ](https://user-images.githubusercontent.com/101454330/163688337-6f5f2203-080a-4df8-97e0-d90abf80bb21.png)
+
+### Example of starting of Brain GCD (Great Common Divisor) game, winning and losing a player:  https://asciinema.org/a/QVSiecwb2i4LiQOEJ4HpRHroV
+
+![Asciinema - examples of Brain GCD game ](https://user-images.githubusercontent.com/101454330/163880971-d133e82e-7617-4c96-8fc6-0679871dd942.png)
+
