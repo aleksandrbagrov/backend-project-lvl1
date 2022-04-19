@@ -1,4 +1,4 @@
-// getRandomInt - generates random integers in the range [0, maxInt)
+// getRandomInt - generates random integers in the range [minInt, maxInt)
 import getRandomInt from '../src/getRandomInt.js';
 
 // welcome -  asks for the player's name and greets him
@@ -28,9 +28,9 @@ let flag = true;
 
 let i = 1;
 do {
-  const numInt1 = getRandomInt(maxInt);
-  const numInt2 = getRandomInt(maxInt);
-  const operationFlag = getRandomInt(mathOperations.length);
+  const numInt1 = getRandomInt(maxInt, 0);
+  const numInt2 = getRandomInt(maxInt, 0);
+  const operationFlag = getRandomInt(mathOperations.length, 0);
   const gameQuestion = `Question: ${numInt1} ${mathOperations[operationFlag]} ${numInt2}`;
   let res = 0;
   // eslint-disable-next-line default-case

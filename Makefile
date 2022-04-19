@@ -32,4 +32,9 @@ brain-calc: # start game Brain Calc
 brain-gcd: # start games Brain GCD (Greatest Common Divisor)
 
 	node bin/brain-gcd.js
+
+
+brain-progression: # start games Brain Progression
+
+	node bin/brain-progression.js
 	
