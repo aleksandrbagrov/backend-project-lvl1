@@ -37,4 +37,9 @@ brain-gcd: # start games Brain GCD (Greatest Common Divisor)
 brain-progression: # start games Brain Progression
 
 	node bin/brain-progression.js
-	
+
+
+brain-prime: # start games Brain Prime
+
+	node bin/brain-prime.js
+		
