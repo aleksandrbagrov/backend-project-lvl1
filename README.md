@@ -6,7 +6,7 @@ That is so funny! :joy:
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 ![Linting Status](https://github.com/aleksandrbagrov/backend-project-lvl1/actions/workflows/hexlet-project-lint.yml/badge.svg?event=push)
 
-### Set of Game (package) Installation
+### Set of Games (package) Installation
 
 1.   git clone git@github.com:aleksandrbagrov/backend-project-lvl1.git
 2.   cd ~/backend-project-lvl1
