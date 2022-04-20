@@ -30,3 +30,10 @@
 ### Example of starting of Brain Progression game, winning and losing a player:   https://asciinema.org/a/488612
 
 ![Asciinema - examples of Brain Progression game ](https://user-images.githubusercontent.com/101454330/164069603-df90973e-2bd8-4853-97b3-c3fe19283141.png)
+
+
+### Example of starting of Brain Prime game, winning and losing a player:   https://asciinema.org/a/488734
+
+![Asciinema - examples of Brain Prime game ](https://user-images.githubusercontent.com/101454330/164205519-c426e4fc-f0f7-4075-af91-a4a46e8b2078.png)
+
+
