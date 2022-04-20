@@ -1,11 +1,17 @@
-### ***"Brain Games" - My first educational project on Hexlet***
-
+### ***SET OF CONSOLE GAMES - BRAIN GAMES***
+That is so funny! :joy:
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/aleksandrbagrov/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/aleksandrbagrov/backend-project-lvl1/actions)
-
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 ![Linting Status](https://github.com/aleksandrbagrov/backend-project-lvl1/actions/workflows/hexlet-project-lint.yml/badge.svg?event=push)
+
+### Game Installation
+
+1.   git clone git@github.com:aleksandrbagrov/backend-project-lvl1.git
+2.   cd ~/backend-project-lvl1
+3.   make install
+4.   sudo npm link
 
 
 ### Package installation example:  https://asciinema.org/a/ucYM5tNrqu9iHxLaYsiE5HQOZ
