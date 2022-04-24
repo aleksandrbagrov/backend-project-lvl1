@@ -3,7 +3,9 @@ That is so funny! :joy:
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/aleksandrbagrov/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/aleksandrbagrov/backend-project-lvl1/actions)
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/dfc50c2d88cd46d069c1/maintainability)](https://codeclimate.com/github/aleksandrbagrov/backend-project-lvl1/maintainability)
+
 ![Linting Status](https://github.com/aleksandrbagrov/backend-project-lvl1/actions/workflows/hexlet-project-lint.yml/badge.svg?event=push)
 
 ### Set of Games (package) Installation
