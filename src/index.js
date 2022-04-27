@@ -5,14 +5,14 @@ import readlineSync from 'readline-sync';
 // complete the game (can be changed)
 const questionsNumber = 3;
 
-const index = (taskOfGame, question) => {
+const index = (taskOfGame, funcQuestionAnswer) => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
   console.log(taskOfGame);
 
   for (let i = 1; i <= questionsNumber; i += 1) {
-    const pairQuestionAnswer = question();
+    const pairQuestionAnswer = funcQuestionAnswer();
     const questionOfGame = pairQuestionAnswer[0];
     const vinAnswer = pairQuestionAnswer[1];
     console.log(questionOfGame);
