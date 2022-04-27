@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-import '../games/game-calc.js';
+import '../src/games/game-calc.js';

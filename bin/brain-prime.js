@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-import '../games/game-prime.js';
+import '../src/games/game-prime.js';

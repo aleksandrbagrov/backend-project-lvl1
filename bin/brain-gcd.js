@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-import '../games/game-gcd.js';
+import '../src/games/game-gcd.js';
