@@ -1,21 +1,16 @@
-// 'readline-sync' tries to let your script have a conversation with the user via a console
 import readlineSync from 'readline-sync';
 
-// questionsNumber - the number of questions asked to the player to successfully
-// complete the game (can be changed)
 const questionsNumber = 3;
 
-const index = (taskOfGame, funcQuestionAnswer) => {
+const index = (taskOfGame, getQuestionAnswer) => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
   console.log(taskOfGame);
 
-  for (let i = 1; i <= questionsNumber; i += 1) {
-    const pairQuestionAnswer = funcQuestionAnswer();
-    const questionOfGame = pairQuestionAnswer[0];
-    const vinAnswer = pairQuestionAnswer[1];
-    console.log(questionOfGame);
+  for (let i = 0; i < questionsNumber; i += 1) {
+    const [questionOfGame, vinAnswer] = getQuestionAnswer();
+    console.log(`Question: ${questionOfGame}`);
     const playerAnswer = readlineSync.question('Your answer: ');
     if (vinAnswer !== playerAnswer) {
       console.log(`\x1b[0;31m'${playerAnswer}' \x1b[0mis wrong answer ;(\x1b[0;32m. \x1b[0m\
