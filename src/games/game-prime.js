@@ -1,10 +1,6 @@
 import getRandomInt from '../getRandomInt.js';
 
-import index from '../index.js';
-
-const gameTask = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-
-const maxInt = 100;
+import driveGame from '../index.js';
 
 function isPrimeNumber(num) {
   let i = 2;
@@ -18,6 +14,7 @@ function isPrimeNumber(num) {
 }
 
 const generateQuestionAnswer = () => {
+  const maxInt = 100;
   const numInt = getRandomInt(2, maxInt);
   const gameQuestion = `${numInt}`;
   const correctAnswer = isPrimeNumber(numInt) ? 'yes' : 'no';
@@ -25,7 +22,8 @@ const generateQuestionAnswer = () => {
 };
 
 const runGame = () => {
-  index(gameTask, generateQuestionAnswer);
+  const gameTask = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+  driveGame(gameTask, generateQuestionAnswer);
 };
 
 export default runGame;
