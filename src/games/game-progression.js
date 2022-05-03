@@ -2,6 +2,10 @@ import getRandomInt from '../getRandomInt.js';
 
 import driveGame from '../index.js';
 
+const maxFirstElementProgression = 50;
+const maxStepProgression = 15;
+const maxLengthProgression = 13;
+
 const generateProgression = (firstElement, step, length) => {
   const progressionArray = [];
   for (let k = 0; k < length; k += 1) {
@@ -11,17 +15,14 @@ const generateProgression = (firstElement, step, length) => {
 };
 
 const generateQuestionAnswer = () => {
-  const firstElementProgression = 50;
-  const stepOfProgression = 15;
-  const lengthOfProgression = 13;
-  const firstElement = getRandomInt(0, firstElementProgression);
-  const step = getRandomInt(1, stepOfProgression);
-  const progrressionLength = getRandomInt(5, lengthOfProgression);
+  const firstElement = getRandomInt(0, maxFirstElementProgression);
+  const step = getRandomInt(1, maxStepProgression);
+  const progrressionLength = getRandomInt(5, maxLengthProgression);
   const indexOfElement = getRandomInt(0, progrressionLength - 1);
   const progression = generateProgression(firstElement, step, progrressionLength);
   const correctAnswer = String(progression[indexOfElement]);
   progression[indexOfElement] = '..';
-  const gameQuestion = `${progression.join(' ')}`;
+  const gameQuestion = progression.join(' ');
   return [gameQuestion, correctAnswer];
 };
 

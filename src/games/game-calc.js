@@ -2,6 +2,10 @@ import getRandomInt from '../getRandomInt.js';
 
 import driveGame from '../index.js';
 
+const mathOperationsSet = ['+', '-', '*'];
+
+const maxInt = 20;
+
 const genAnswer = (num1, num2, mathOperation) => {
   switch (mathOperation) {
     case '+':
@@ -16,8 +20,6 @@ const genAnswer = (num1, num2, mathOperation) => {
 };
 
 const generateQuestionAnswer = () => {
-  const maxInt = 20;
-  const mathOperationsSet = ['+', '-', '*'];
   const numInt1 = getRandomInt(0, maxInt);
   const numInt2 = getRandomInt(0, maxInt);
   const operationIndex = getRandomInt(0, mathOperationsSet.length - 1);

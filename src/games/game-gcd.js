@@ -2,6 +2,8 @@ import getRandomInt from '../getRandomInt.js';
 
 import driveGame from '../index.js';
 
+const maxInt = 200;
+
 const gcd = (num1, num2) => {
   if (num1 % num2 === 0) {
     return num2;
@@ -10,7 +12,6 @@ const gcd = (num1, num2) => {
 };
 
 const generateQuestionAnswer = () => {
-  const maxInt = 200;
   const numInt1 = getRandomInt(0, maxInt);
   const numInt2 = getRandomInt(1, maxInt);
   const gameQuestion = `${numInt1} ${numInt2}`;
